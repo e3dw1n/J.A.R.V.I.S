@@ -16,8 +16,8 @@ class Assistant(Agent):
         super().__init__(
             instructions=AGENT_INSTRUCTION,
             llm=google.beta.realtime.RealtimeModel(
-            voice="charon",
-            temperature=0.4,
+            voice="Charon",
+            temperature=0.6,
         ),
             tools=[
                 getweather,
